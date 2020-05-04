@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{}
+
+.header01{
+    background: #282828;
+    padding: 10px 10px;
+    font-size: 12px;
+    position: relative;
+}
+.h01{
+    margin-left: 35px;
+}
+.h01 li{
+    float: left;
+}
+.h01 li a{
+    color: #fff;
+}
+
+.h02{
+    float: right;
+}
+.h02 li{
+    float: left;
+    margin-right: 50px;
+}
+.h02 li a{
+    color: #fff;
+}
+.h03{}
+.h03 li{
+    position: absolute;
+    right: 385px;
+}
+.h03 li a{}
+
+.header02{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.header02 h1{
+    float: left;
+    margin-right: 140px;
+}
+.header02 h1 a{}
+.header02 h1 img{
+    width: 80%;
+}
+
+.gnb{}
+.gnb li{
+    float: left;
+    padding: 0 30px;
+    position: relative;
+    line-height: 40px;
+}
+.gnb li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gnb li:last-child{
+    margin-right: 0;
+}
+.gnb li:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: #000;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+    bottom: 10px;
+    transform: scale(0);
+    transition: 1s transform;
+}
+.gnb li:hover:after{
+    transform: scale(1);
+}
+.gnb li a{}
+/*lnb*/
+.lnb{
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    line-height: 40px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s max-height;
+}
+.lnb li{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.lnb li a{
+    font-size: 14px;
+}
+.gnb li:hover .lnb{
+    max-height: 500px;
+}
+/*footer*/
+
+#footer{
+    background-color: #1E1E1E;
+}
+
+.fTop{
+    background-color: #282828;
+    padding: 50px 0;
+}
+.fTop dl{
+    float: left;
+    color: #646464;
+    font-size: 13px;
+    margin-right: 100px;
+}
+.fTop dt{
+    background: url(../images/common/bar_snb.gif) no-repeat left bottom;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+}
+.fTop dd{
+    margin-left: 0;
+    line-height: 24px;
+}
+.fTop dd a{
+    color: #8a8a8a;
+}
+.sns01{
+    margin-left: 28px;
+}
+.company01{
+    display: block;
+    width: 0;
+}
+
+.fBottom{
+    padding: 50px 0;
+    color: #555;
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+}
+.fLogo img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.fBottom span:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 8px;
+    background-color: #333;
+    margin: 0 8px;
+}
+.fInfo a{
+    color: #555;
+}
+.fInfo02{
+    font-weight: bold;
+}
+.fInfo02 p{
+    display: inline-block;
+}
+.fInfo03{
+    margin: 20px 0;
+}
+.fSns{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.fSns img{
+    width: 35px;
+    margin-left: 3px;
+}

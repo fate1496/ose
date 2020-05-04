@@ -1,0 +1,298 @@
+@charset utf-8;
+
+/*컨테이너*/
+#container{}
+
+/*메인슬라이더*/
+.mainSlider .slick-slide{
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.mainSlider .slick-slide img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+.Arrow{
+    position: absolute;
+    width: 25px;
+    height: 45px;
+    z-index: 1;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.prevBtn{
+    left: 30px;
+}
+.nextBtn{
+    right: 30px;
+}
+
+.mainSlider .slick-dots{
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 30px;
+}
+.mainSlider .slick-dots .slick-active{
+    background: #fff;
+}
+.mainSlider .slick-dots li{
+    float: left;
+    border: 1px solid #fff;
+    text-indent: -9999px;
+    width: 30px;
+    height: 2px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.mainSlider .slick-dots button{
+    border: 0;
+    background: none;
+}
+
+/*mainCon01*/
+.mainCon01{
+    text-align: center;
+    background: #F5F5F5;
+    padding: 50px 0;
+}
+
+.con01{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.con01 h2{
+    color: #721802;
+}
+.con01 span{
+    display: block;
+    line-height: 20px;
+}
+
+.con01L{
+    background: url(../images/main/bg_bar_div.gif) no-repeat right center;
+    padding-right: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.con01L p{
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.con01R{}
+.con01R p{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.moreBtn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+}
+.moreBtn a{}
+.moreBtn img{
+    width: 100%;
+}
+
+/*mainCon02*/
+
+.mainCon02{
+    background: url(../images/main/visual01.jpg) no-repeat;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mainCon02 h2{
+    background: url(../images/main/tit_line_bot.png) no-repeat center bottom;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.mainCon02 h3{
+    margin: 10px 0;
+}
+.mainCon02 p{}
+.mainCon02 span{
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 22px;
+    display: block;
+}
+.mainCon02 .moreBtn{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*mainCon03*/
+
+.mainCon03{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.mainCon03 h2{
+    color: #721802;
+}
+.mainCon03>p{
+    margin: 20px 0;
+}
+
+.con03Menu{}
+.con03Menu li{
+    float: left;
+}
+.con03Menu a{}
+.con03Menu img{
+    display: block;
+}
+.menuList{
+    position: relative;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.menu01{
+    margin-left: 0;
+}
+.menuList a{}
+.menuList img{}
+
+.menuInfo{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: #333;
+}
+.menuInfo h4{
+    color: #7d645a;
+    margin-bottom: 5px;
+}
+.menuInfo p{
+    font-size: 12px;
+}
+/*mainCon04*/
+
+.mainCon04{
+    background: url(../images/main/visual02.jpg) no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.mainCon04 h2{
+    background: url(../images/main/tit_line_bot.png) no-repeat center bottom;
+    margin: 20px 0;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.mainCon04 h4{}
+.mainCon04 p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.mainCon04 span{
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 200;
+}
+.mainCon04 a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.mainCon04 img{
+    margin-left: 130px;
+}
+
+/*mainCon05*/
+
+.mainCon05{
+    background: #BEB4AF;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+}
+
+.con05 li{
+    width: 600px;
+    float: left;
+}
+.con05 h2{
+    text-align: end;
+    margin-right: 40px;
+}
+.con05 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.con05 a{}
+.con05 img{
+    width: 30px;
+}
+.mainCon05 .moreBtn{
+    width: 30px;
+    position: absolute;
+    right: 580px;
+    top: 35px;
+}
+
+/*mainCon06*/
+
+.mainCon06{
+    background: url(../images/main/bg_visual.jpg) no-repeat;
+    padding: 100px 0;
+    position: relative;
+}
+
+.con06{
+    text-align: center;
+}
+.con06 li{
+    float: left;
+    width: 300px;
+    height: 150px;
+    font-size: 12px;
+}
+.con06 a{}
+.con06 img{
+    width: 25px;
+    vertical-align: middle;
+
+}
+.con06 h4{
+    color: #7d645a;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.con06 p{
+    font-weight: bold;
+    line-height: 20px;
+}
+.topBtn{
+    text-align: center;
+}
+.topBtn a{}
+.topBtn img{
+    position: absolute;
+    bottom: 0;
+    margin-left: -50px;
+}
+.topBtn p{
+    color: #646464;
+    position: absolute;
+    bottom: 9px;
+    left: 50%;
+    margin-left: -18px;
+    font-size: 14px;
+    font-weight: bold;
+}
